@@ -1,6 +1,6 @@
 ﻿'BITBOT Ver 1.2 Support deathbycaptcha.com API
 
-SET !VAR1 http://localhost/dbc.php
+SET !VAR1 https://github.com/t4n6a1ka/bitbot/blob/master/http/dbc.php
 URL GOTO=https://freebitco.in/?r=19968716
 TAB CLOSEALLOTHERS
 SET !EXTRACT_TEST_POPUP NO
@@ -15,7 +15,7 @@ SET !EXTRACT EVAL("encodeURIComponent(\"{{!EXTRACT}}\");")
 
 TAB OPEN
 TAB T=2
-URL GOTO={{https://github.com/t4n6a1ka/bitbot/blob/master/http/dbc.php}}?captcha_url={{!EXTRACT}}
+URL GOTO={{!VAR1}}?captcha_url={{!EXTRACT}}
 SET !EXTRACT NULL 
 WAIT SECONDS=2
 TAG POS=1 TYPE=HTML ATTR=* EXTRACT=TXT
