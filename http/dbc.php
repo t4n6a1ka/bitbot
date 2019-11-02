@@ -21,8 +21,8 @@ if(!in_array($_SERVER['REMOTE_ADDR'],$allowlist)){
 
 
 // ENTER YOUR DeathByCaptcha username/password BELOW:
-$username = "username";
-$password = "password";
+$username = "a6n4t.key@gmail.com";
+$password = "DelRosario123@.";
 // DO NOT CHANGE BELOW
 
 if(isset($_GET["captcha_url"])){
