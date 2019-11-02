@@ -1,7 +1,7 @@
 ﻿'BITBOT Ver 1.2 Support deathbycaptcha.com API
 
 SET !VAR1 http://localhost/dbc.php
-URL GOTO=https://freebitco.in/?r=6946665
+URL GOTO=https://freebitco.in/?r=19968716
 TAB CLOSEALLOTHERS
 SET !EXTRACT_TEST_POPUP NO
 SET !ERRORIGNORE YES
